@@ -1,0 +1,200 @@
+{
+    "name": "transfer-analysis",
+    "version": "1.0",
+    "endpoint": "basedOnFile version",
+    "columns": [
+        {
+            "cell": {
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "left"
+                },
+                "formatting": {
+                    "type": "string",
+                    "options": []
+                }
+            },
+            "field": [
+                "product.code"
+            ],
+            "state": {
+                "width": {
+                    "unit": "px",
+                    "value": 90
+                },
+                "visible": true,
+                "position": 1
+            },
+            "width": {
+                "max": {
+                    "unit": "px",
+                    "value": 600
+                },
+                "min": {
+                    "unit": "px",
+                    "value": 50
+                }
+            },
+            "header": {
+                "label": "Product Code",
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "center"
+                },
+                "shortLabel": "Product Code"
+            },
+            "editable": false,
+            "pinnable": true,
+            "sortable": true,
+            "draggable": true,
+            "resizable": true,
+            "filterable": true,
+            "selectable": true,
+            "controllable": true
+        },
+        {
+            "cell": {
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "left"
+                },
+                "formatting": {
+                    "type": "string",
+                    "options": []
+                }
+            },
+            "field": [
+                "product.label"
+            ],
+            "state": {
+                "width": {
+                    "unit": "px",
+                    "value": 270
+                },
+                "visible": true,
+                "position": 2
+            },
+            "width": {
+                "max": {
+                    "unit": "px",
+                    "value": 600
+                },
+                "min": {
+                    "unit": "px",
+                    "value": 50
+                }
+            },
+            "header": {
+                "label": "Product Name",
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "center"
+                },
+                "shortLabel": "Product Name"
+            },
+            "pinnable": true,
+            "sortable": true,
+            "draggable": true,
+            "resizable": true,
+            "filterable": true,
+            "selectable": true,
+            "controllable": false
+        },
+        {
+            "cell": {
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "left"
+                },
+                "formatting": {
+                    "type": "string",
+                    "options": []
+                }
+            },
+            "field": [
+                "test.field"
+            ],
+            "state": {
+                "width": {
+                    "unit": "px",
+                    "value": 270
+                },
+                "visible": true,
+                "position": 3
+            },
+            "width": {
+                "max": {
+                    "unit": "px",
+                    "value": 600
+                },
+                "min": {
+                    "unit": "px",
+                    "value": 50
+                }
+            },
+            "header": {
+                "label": "test column",
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "center"
+                },
+                "shortLabel": "test column"
+            },
+            "pinnable": true,
+            "sortable": true,
+            "draggable": true,
+            "resizable": true,
+            "filterable": true,
+            "selectable": true,
+            "controllable": false
+        },
+        {
+            "cell": {
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "left"
+                },
+                "formatting": {
+                    "type": "string",
+                    "options": []
+                }
+            },
+            "field": [
+                "test2.field"
+            ],
+            "state": {
+                "width": {
+                    "unit": "px",
+                    "value": 270
+                },
+                "visible": true,
+                "position": 4
+            },
+            "width": {
+                "max": {
+                    "unit": "px",
+                    "value": 600
+                },
+                "min": {
+                    "unit": "px",
+                    "value": 50
+                }
+            },
+            "header": {
+                "label": "Test 2 column",
+                "alignment": {
+                    "vertical": "middle",
+                    "horisontal": "center"
+                },
+                "shortLabel": "Test 2 column"
+            },
+            "pinnable": true,
+            "sortable": true,
+            "draggable": true,
+            "resizable": true,
+            "filterable": true,
+            "selectable": true,
+            "controllable": false
+        }
+    ]
+}
